@@ -5,7 +5,11 @@ const ResultPopup = ({ message, onClose, word }) => {
     return (
         <div className="popup">
             <div className="popup-content">
-                <p>{message} THE WORD WAS : {word}</p>
+                {message.length > 100 ? (
+                    <p>{message}</p>
+                ) : (
+                    <p>{message} THE WORD WAS : {word}</p>
+                )}
                 <button onClick={onClose}>Close</button>
             </div>
         </div>
