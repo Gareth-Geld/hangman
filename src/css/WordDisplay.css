@@ -1,0 +1,32 @@
+/* CSS for the Hangman-style word display */
+.word-display {
+    text-align: center;
+    margin-top: -265px;
+    font-size: 60px;
+}
+
+.display-word {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin-left: 300px;
+    letter-spacing: 10px;
+    /* margin-bottom: 60px; */
+    margin-top: 40%;
+}
+
+
+/* Style for revealed letters */
+.display-word span {
+    text-decoration: underline;
+    /* Underline revealed letters */
+    color: white;
+    /* Text color for revealed letters */
+}
+
+.titleWord {
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}

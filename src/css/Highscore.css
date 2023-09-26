@@ -1,0 +1,11 @@
+.highscore {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.box {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
